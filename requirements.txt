@@ -89,7 +89,6 @@ systemd-python==234
 toml==0.10.2
 Twisted==18.9.0
 typing-extensions==4.0.1
-ufw==0.36
 unattended-upgrades==0.1
 urllib3==1.26.7
 virtualenv==20.13.0
