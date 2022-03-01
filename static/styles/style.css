@@ -14,7 +14,8 @@ body {
 }
 
 .navbar {
-  background-image: linear-gradient(to right, #00b4db, #0083b0);
+  /* background-image: linear-gradient(to right, #00b4db, #0083b0); */
+  background-color: #3c1053;
   padding: 0 !important;
 }
 
@@ -45,7 +46,8 @@ body {
 
 /* BANNER SECTION */
 #banner {
-  background-image: linear-gradient(to right, #00b4db, #0083b0);
+  /* background-image: linear-gradient(to right, #00b4db, #0083b0); */
+  background-color: #3c1053;
   color: #ffffff;
   padding-top: 5%;
 }
@@ -84,7 +86,7 @@ body {
 
 .title::before {
   content: "";
-  background: #0083b0;
+  background: #3c1053;
   height: 5px;
   width: 200px;
   margin-left: auto;
@@ -95,7 +97,7 @@ body {
 
 .title::after {
   content: "";
-  background: #0083b0;
+  background: #3c1053;
   height: 10px;
   width: 50px;
   margin-left: auto;
@@ -110,7 +112,8 @@ body {
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #00b4db, #0083b0);
+  /* background-image: linear-gradient(to right, #00b4db, #0083b0); */
+  background-color: #3c1053;
 }
 
 /* ABOUT US SECTION */
@@ -146,7 +149,8 @@ body {
 }
 
 .testimonials {
-  border-left: 4px solid #0083b0;
+  /* border-left: 4px solid #0083b0; */
+  border-left: #3c1053;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -188,7 +192,8 @@ body {
 /* FOOTER SECTION */
 
 #footer {
-  background-image: linear-gradient(to right, #00b4db, #0083b0);
+  /* background-image: linear-gradient(to right, #00b4db, #0083b0); */
+  background-color: #3c1053;
   color: #ffffff;
 }
 
@@ -209,7 +214,8 @@ body {
   text-align: center;
   padding-top: 7px;
   border-radius: 2px;
-  background-image: linear-gradient(to right, #00b4db, #0083b0);
+  /* background-image: linear-gradient(to right, #00b4db, #0083b0); */
+  background-color: #3c1053;
 }
 
 .footer-box .form-control {
@@ -225,7 +231,8 @@ body {
   border: none;
   border-radius: 0;
   margin-top: 30px;
-  background-image: linear-gradient(to right, #00b4db, #0083b0);
+  /* background-image: linear-gradient(to right, #00b4db, #0083b0); */
+  background-color: #3c1053;
 }
 
 hr {
