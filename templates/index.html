@@ -59,6 +59,9 @@
               <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#services">Training</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#about-us">About Us</a>
             </li>
             <li class="nav-item">
@@ -77,7 +80,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h1 class="promo-title">ROLLERSTACK SOFTWARE SOLUTIONS</h1>
+            <h1 class="promo-title">Rollerstack Solutions</h1>
             <p>
               With thousands of companies trying to capture the attention of their customers,
               competition on the Internet has never been higher.
@@ -94,42 +97,38 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L34.3,58.7C68.6,85,137,139,206,154.7C274.3,171,343,149,411,122.7C480,96,549,64,617,64C685.7,64,754,96,823,122.7C891.4,149,960,171,1029,165.3C1097.1,160,1166,128,1234,117.3C1302.9,107,1371,117,1406,122.7L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg> 
     </section>
 
-    <!-- SERVICES SECTION -->
-
     <section id="services">
       <div class="container text-center">
         <h1 class="title">What do we do?</h1>
         <div class="row text-center">
           <div class="col-md-4 services">
             <img src="{{ url_for('static', filename='images/icon-web.png')}}" class="service-img" />
-            <h4>WEB DEVELOPMENT</h4>
-            <p>
-              Would you like to sell your product or service on the Internet? 
-              We create your custom website or online store so you can reach 
-              more people and put your sales on autopilot.
-            </p>
+            <h4>Customer relationship management.</h4>
           </div>
           <div class="col-md-4 services">
             <img src="{{ url_for('static', filename='images/icon-seo.png')}}" class="service-img" />
-            <h4>SEO</h4>
-            <p>
-              Who would not like to appear among the first results of Google? 
-              We take care of optimizing your website to position you organically
-              in search engines.
-            </p>
+            <h4>Robotic automation process</h4>
           </div>
           <div class="col-md-4 services">
             <img src="{{ url_for('static', filename='images/icon-ads.png')}}" class="service-img" />
-            <h4>FACEBOOK ADS</h4>
-            <p>
-              The odds are incredibly high that your potential customer is 
-              browsing Facebook or Instagram right now.
-              What are you waiting for to show what your business 
-              has to offer with social media ads?
-            </p>
+            <h4>Expressjs/NodeJs</h4>
           </div>
+          <div class="col-md-4 services">
+            <img src="{{ url_for('static', filename='images/icon-ads.png')}}" class="service-img" />
+            <h4>Css</h4>
+          </div>
+          <div class="col-md-4 services">
+            <img src="{{ url_for('static', filename='images/icon-ads.png')}}" class="service-img" />
+            <h4>Python</h4>
+          </div>
+          <div class="col-md-4 services">
+            <img src="{{ url_for('static', filename='images/icon-ads.png')}}" class="service-img" />
+            <h4>Flask</h4>
+          </div>
+          <div class="col-md-4 services">
+            <img src="{{ url_for('static', filename='images/icon-ads.png')}}" class="service-img" />
+            <h4>HTML</h4>
         </div>
-        <button type="button" class="btn btn-primary">Consult Us</button>
       </div>
     </section>
 
@@ -147,18 +146,12 @@
               </li>
               <li>We are passionate about what we do, and we want to do it well.</li>
               <li>
-                We take care of digital marketing so that you can take 
-                care of your business.
               </li>
               <li>
-                We do data-driven marketing: We rely on data to make decisions.
               </li>
               <li>
-                We are available 24/7 to resolve all your concerns.
               </li>
               <li>
-                Each client is a world and that is why we offer 
-                you a service tailored to your needs.
               </li>
             </ul>
           </div>
@@ -170,20 +163,39 @@
     </section>
 
     <!-- TESTIMONIALS SECTION -->
-
-    <!-- SOCIAL MEDIA SECTION -->
-
-    <section id="social-media">
-      <div class="container text-center">
-        <p>Our social networks</p>
-        <div class="social-icons">
-          <a href="#"><img src="{{ url_for('static', filename='images/facebook.png')}}" alt="Facebook" /></a>
-          <a href="#"><img src="{{ url_for('static', filename='images/instagram.png')}}" alt="Instagram" /></a>
-          <a href="#"><img src="{{ url_for('static', filename='images/twitter.png')}}" alt="Twitter" /></a>
-          <a href="#"><img src="{{ url_for('static', filename='images/linkedin.png')}}" alt="Linkedin" /></a>
+    <section id="testimonials">
+      <div class="container">
+        <h1 class="title text-center">Testimonials</h1>
+        <div class="row offset-1">
+          <div class="col-md-5 testimonials">
+            <p class="user-details">
+              Lattice Software Solutions helped me to 
+              give my brand an identity and define my ideal client.
+              Since then, sales have only increased.
+            </p>
+            <img src="{{ url_for('static', filename='images/img-testimonial1.png')}}" />
+            <p><b>Juan</b><br />Epicpc</p>
+          </div>
+          <div class="col-md-5 testimonials">
+            <p class="user-details">
+              We did not understand what was failing in our sales process,
+              until we found a Lattice Software Solutions and commissioned
+              a custom web development.
+            </p>
+            <img src="{{ url_for('static', filename='images/img-testimonial2.png')}}" />
+            <p><b>María</b><br />Oamyway</p>
+          </div>
+          <div class="col-md-5 testimonials">
+            <p class="user-details">
+            </p>
+            <img src="{{ url_for('static', filename='images/img-testimonial2.png')}}" />
+            <p><b>María</b><br />Johnson and Johnson Healthcare</p>
+          </div>
         </div>
       </div>
     </section>
+    <!-- SOCIAL MEDIA SECTION -->
+
 
     <!-- FOOTER SECTION -->
     <section id="footer">
@@ -201,15 +213,8 @@
           </div>
           <div class="col-md-4 footer-box">
             <p><b>CONTACT US</b></p>
-            <p><i class="fa fa-map-marker"></i> T-Hub Co-working spaces, Financial District, Hyderabad,
-              Telangana</p>
-            <p><i class="fa fa-phone"></i> +91 99999 99999</p>
-            <p><i class="fa fa-envelope"></i> lasolutions.digital@web.com</p>
-          </div>
-          <div class="col-md-4 footer-box">
-            <p><b>Subscribe to our newsletter!</b></p>
-            <input type="email" class="form-control" placeholder="Your Email" />
-            <button type="button" class="btn btn-primary">Subscribe</button>
+            <p><i class="fa fa-map-marker"></i> Raghavendra Colony, Kondapur, Hyderabad - 500084 </p>
+            <p><i class="fa fa-envelope"></i> info@rollerstack.com</p>
           </div>
         </div>
         <hr />
